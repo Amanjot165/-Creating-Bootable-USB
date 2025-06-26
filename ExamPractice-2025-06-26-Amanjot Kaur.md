@@ -1,17 +1,17 @@
 # -Creating-Bootable-USB
-# 🧪 ExamPractice-2025-06-26-Amanjot Kaur.md
+# ExamPractice-2025-06-26-Amanjot Kaur.md
 
-## 📄 Tech Report: Creating a Bootable USB for Windows
+# Tech Report: Creating a Bootable USB for Windows
 
-### 🔍 Objective
+# Objective
 To describe and compare two different methods for creating a bootable USB drive for installing the Windows operating system
 
-# 💡 Method 1: Using **Rufus**
+# Method 1: Using **Rufus**
 
-### ✅ Summary in Own Words
+#Summary in Own Words
 Rufus is a lightweight and free tool that allows you to create a bootable USB drive from an ISO image. It's one of the fastest and most flexible ways to prepare a Windows installation USB. You must download the Windows ISO and use Rufus to write it onto a USB stick (at least 8GB).
 
-### 🔧 Steps
+# Steps
 1. Download **Rufus** from its official website.
 2. Plug in a USB drive (minimum 8GB).
 3. Launch Rufus.
@@ -19,19 +19,19 @@ Rufus is a lightweight and free tool that allows you to create a bootable USB dr
 5. Choose the partition scheme (MBR or GPT).
 6. Click **Start** to begin writing.
 7. 
-### 🔗 Link to Main Page  
+# Link to Main Page  
 [Rufus Official Website](https://rufus.ie/en/)
 
-### 🔗 Supporting Link  
+# Supporting Link  
 [Windows 10 ISO Download](https://www.microsoft.com/software-download/windows10)
 
 
-## 💡 Method 2: Using **Windows Media Creation Tool**
+# Method 2: Using **Windows Media Creation Tool**
 
-### ✅ Summary in Own Words
+# Summary in Own Words
 The Windows Media Creation Tool is Microsoft’s official way to create a bootable USB. It automatically downloads the latest Windows version and writes it to a USB stick (8GB+). It’s easy and reliable, but only works with Windows OS.  
 
-### 🔧 Steps
+# Steps
 1. Download the **Media Creation Tool** from Microsoft.
 2. Insert a USB flash drive with at least 8GB capacity.
 3. Run the tool and accept terms.
@@ -39,9 +39,41 @@ The Windows Media Creation Tool is Microsoft’s official way to create a bootab
 5. Select language, edition, and architecture.
 6. Let the tool create the bootable USB
 
-### 🔗 Link to Main Page  
+# Link to Main Page  
 [Windows Media Creation Tool](https://www.microsoft.com/software-download/windows10)
 
-### 🔗 Supporting Link  
+# Supporting Link  
 [How to use the Media Creation Tool](https://www.windowscentral.com/how-create-windows-10-usb-bootable-media-uefi-support)
 
+# Can One USB Be Used for Multiple Boots?
+
+Yes — but not with the above tools. You’ll need multiboot software like:
+
+# **Ventoy**
+Ventoy allows you to copy **multiple ISO files** onto a USB. When you boot from the USB, it shows a menu to choose which ISO to load.
+
+# Background Link  
+[Ventoy Official Site](https://www.ventoy.net/en/index.html)
+
+---
+
+#  Tools Needed
+
+| Tool                     | Purpose                              |
+|--------------------------|--------------------------------------|
+| Rufus                    | Bootable USB creation from ISO       |
+| Windows Media Tool       | Official USB installer creator       |
+| Ventoy (optional)        | Multi-boot USB creation              |
+
+---
+
+# USB Size Required
+
+- Minimum: **8 GB**
+- Recommended: **16 GB or more** (especially for multiple OS images)
+
+---
+
+# Conclusion
+
+Creating a bootable USB is essential for installing Windows or recovering a system. Rufus offers speed and flexibility, while Microsoft’s Media Creation Tool is user-friendly and official. For advanced users, Ventoy enables multiple bootable ISOs from a single USB drive.
