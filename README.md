@@ -24,3 +24,24 @@ Rufus is a lightweight and free tool that allows you to create a bootable USB dr
 
 ### 🔗 Supporting Link  
 [Windows 10 ISO Download](https://www.microsoft.com/software-download/windows10)
+
+
+## 💡 Method 2: Using **Windows Media Creation Tool**
+
+### ✅ Summary in Own Words
+The Windows Media Creation Tool is Microsoft’s official way to create a bootable USB. It automatically downloads the latest Windows version and writes it to a USB stick (8GB+). It’s easy and reliable, but only works with Windows OS.  
+
+### 🔧 Steps
+1. Download the **Media Creation Tool** from Microsoft.
+2. Insert a USB flash drive with at least 8GB capacity.
+3. Run the tool and accept terms.
+4. Choose “Create installation media.”
+5. Select language, edition, and architecture.
+6. Let the tool create the bootable USB
+
+### 🔗 Link to Main Page  
+[Windows Media Creation Tool](https://www.microsoft.com/software-download/windows10)
+
+### 🔗 Supporting Link  
+[How to use the Media Creation Tool](https://www.windowscentral.com/how-create-windows-10-usb-bootable-media-uefi-support)
+
